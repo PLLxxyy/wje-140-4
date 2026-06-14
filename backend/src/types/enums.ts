@@ -4,3 +4,5 @@ export enum MaintenanceType { Routine = 'Routine', Repair = 'Repair', Emergency 
 export enum DriverStatus { Available = 'Available', OnTrip = 'OnTrip', Leave = 'Leave', Suspended = 'Suspended' }
 export enum PaymentMethod { Cash = 'Cash', Card = 'Card', Company = 'Company', ETC = 'ETC' }
 export enum VehicleType { LightTruck = 'LightTruck', MediumTruck = 'MediumTruck', HeavyTruck = 'HeavyTruck', Refrigerated = 'Refrigerated', Hazmat = 'Hazmat' }
+export enum ViolationStatus { Pending = 'Pending', Processing = 'Processing', Resolved = 'Resolved', Appealed = 'Appealed' }
+export enum ViolationType { Speeding = 'Speeding', RedLight = 'RedLight', Overload = 'Overload', IllegalParking = 'IllegalParking', FatigueDriving = 'FatigueDriving', Other = 'Other' }
